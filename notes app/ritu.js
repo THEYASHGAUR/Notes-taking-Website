@@ -19,7 +19,22 @@ const notes = JSON.parse(localStorage.getItem('notes') || '[]');
 /*
 logic part starts from here
 */
-
+/*******************Background-color *********************************** */
+addbtn.addEventListener("click", ColorChange);
+function ColorChange() {
+  let color =
+    "rgb" +
+    "(" +
+    Math.floor(Math.random() * 100) +
+    "," +
+    Math.floor(Math.random() * 100) +
+    "," +
+    Math.floor(Math.random() * 100) +
+    ")";
+  console.log(color);
+  document.body.style.backgroundColor = color ; 
+}
+/****************************************************** */
 
 // to make add new note box functional
 addBox.addEventListener('click', function () {
