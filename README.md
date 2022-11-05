@@ -12,3 +12,4 @@ Features -:
    * You can edit and Delete as well .
 
 
+LIVE demo of project - https://notes-taking-application.netlify.app/
