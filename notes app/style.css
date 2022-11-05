@@ -37,7 +37,7 @@ body{
     cursor: pointer;
     font-size: large;
     font-weight: 900;
-    /* justify-content: space-between; */
+    
 
 }
 .add-box .icon{
@@ -46,10 +46,6 @@ body{
     color: black;
     font-size: 56px;
     border-radius: 50%;
-    /* align-items: center;
-    justify-content: center; */
-    /* padding-left: 10px;
-    padding-bottom: 70px; */
     border: 2px dashed black;
 }
 .uil-plus{
@@ -105,9 +101,6 @@ body{
     border-radius: 0px;
     cursor: pointer;
     padding: 5px;
-    /* display: none; */
-    /* display: flex; */
-    /* justify-content: center; */
 }
 .note .bottom-content .menu li:hover{
     background-color: rgb(229, 226, 226);
@@ -132,8 +125,6 @@ body{
     left: 50%;
     transform: translate(-50% , -50%);
     z-index: 3;
-    /* width: 100%; */
-    /* max-width: 400px; */
     border-radius: 50px;
 }
 .popup .content{
@@ -180,15 +171,12 @@ body{
     margin-bottom: 10px;
     padding-left: 12px;
     border-top: 0.1px solid black;
-    /* border: none;
-    outline: none; */
 }
 .content form textarea{
     width: 100%;
     margin-top: 10px;
     padding-left: 12px;
     border-top: 0.1px solid black;
-    /* outline: none; */
 }
 .content form label{
     font-size:medium;
